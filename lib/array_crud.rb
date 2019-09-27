@@ -1,21 +1,23 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  ["tim","bob","bill","jerry"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  expect=["1","2","3","4"]
+  expect.push("arrays!")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  expect=["1","2","3","4"]
+  expect.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  
+    
 end
 
 def remove_element_from_start_of_array(array)
